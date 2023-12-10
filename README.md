@@ -1,6 +1,6 @@
-**BayesAge**
+# BayesAge
 
-BayesAge v1.0 (12/10/2023)
+## BayesAge v1.0 (12/10/2023)
 
 BayesAge is a framework for epigenetic age predictions. This is an extension to scAge (Trapp et al.).
 BayesAge utilizes maximum likelihood estimation (MLE) to infer ages, models count data using binomial distributions,
@@ -18,7 +18,7 @@ and can be executed with the following functions: <br>
     2) process_cgmap_file <br>
     3) bdAge <br>  
 
-**Installation** <br>
+## Installation & Usage <br>
 
 To install BayesAge and associated data, please clone the GitHub repository:
 
@@ -28,13 +28,25 @@ This will download all required data to utilize and test the software.
 
 For ease of use, all functions needed to run the full BayesAge pipeline are directly included within the BayesAge.py script. <br>
 
-**Example Notebooks** <br>
-The notebook *How_to_Run_BayesAge.ipynb* contains all the information on how to run the BayesAge pipeline.<br>
+## Speed, Memory Use and Parallelization <br>
+
+## Example Notebooks  <br>
+The notebook *How_to_Run_BayesAge.ipynb* contains instructions on how to run the BayesAge pipeline.<br>
 Please refer to this main notebook on how to train the model (*construct_reference*), load the methylomes (*process_cgmap_file*), and predict epigenetic age (*bdAge*).<br>
 
+Below is an overview of the parameters that each functions require to run properly. 
 
-**Troubleshooting** <br>
+### Training using construct_reference <br>
 
-If you encounter any issues when trying to run BayesAge, or if you have suggestions, please feel free to contact me by email: lajoycemboning@ucla.edu.
+### Loading methylomes using process_cgmap_file <br>
+
+### Predicting age using bdAge <br>
+
+## Data <br>
+
+
+## Troubleshooting <br>
+
+If you encounter any issues when trying to run BayesAge, or if you have suggestions, please feel free to contact me by email: lajoycemboningatucla.edu.
 
 
